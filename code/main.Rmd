@@ -1,0 +1,21 @@
+<!-- header -->
+
+---
+title: "Workshop on scientific analysis and collaboration at UFRRJ - R and others"
+author: "Gustavo Vasques"
+date: "20/feb/2019"
+---
+
+<!-- output folder for rendered pages -->
+
+```{r, eval=F}
+rmarkdown::render("main.Rmd", encoding="UTF-8", output_dir="../docs/")
+
+```
+
+```{r}
+#Rmd and knitr example
+strHello <- "Hello world!"
+print(strHello)
+
+```
